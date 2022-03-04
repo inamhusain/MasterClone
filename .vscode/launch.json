@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_master_temp",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_master_temp (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Development Launch",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/dev/main_dev.dart",
+            "args": [
+                "--flavor",
+                "development",
+                "--target",
+                "lib/dev/main_dev.dart"
+            ]
+        },
+        {
+            "name": "Staging Launch",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/stage/main_stage.dart",
+            "args": [
+                "--flavor",
+                "stage",
+                "--target",
+                "lib/stage/main_stage.dart"
+            ]
+        },
+        {
+            "name": "Production Launch",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/prod/main_prod.dart",
+            "args": [
+                "--flavor",
+                "production",
+                "--target",
+                "lib/prod/main_prod.dart"
+            ]
+        },
+    ]
+}
